@@ -1,0 +1,49 @@
+body	{  font-size: 9pt; font-family: ±¼¸²;
+	scrollbar-face-color: #FFFFFF; scrollbar-shadow-color: LIGHTGRAY;
+	scrollbar-highlight-color: LIGHTGRAY; scrollbar-3dlight-color: LIGHTGRAY;
+	scrollbar-darkshadow-color: #FFFFFF; scrollbar-track-color: #FFFFFF;
+	scrollbar-arrow-color: LIGHTGRAY}
+
+a 	{ text-decoration: none; fontsize:9pt}
+a:link	{ color: #0B61C5;  font-size: 9pt; } 
+a:active	{ color: #0B61C5;  font-size: 9pt; }
+a:visited 	{ color: #0B61C5;  font-size: 9pt; }
+A:hover      {color: red ; fontsize:9pt;text-decoration: underline;}
+
+p	{ margin-top: 0.0em; margin-bottom: 0.0em ;  font-size: 9pt;}
+b	{  font-size: 9pt;}
+
+.c_small { color:#003A5F; font-size: 8pt; text-decoration:none ; text-decoration:none ; line-height:12pt; letter-spacing : -1px;}
+
+/*	TABLE TAGS	*/
+table	{  font-size: 9pt;margin-top: 0em; margin-bottom: 0em }
+th	{  font-size: 9pt;color: white;text-align: center;background:#424A6B}
+tr	{ vertical-align: center;font-size: 9pt}
+td	{  font-size: 9pt;vertical-align: center}
+
+/*	HEADING TAGS	*/
+h1	{ font-size: 180%; margin-bottom: .5em; }
+h2	{ font-size: 200%; color: #999999; margin-top: 1.5em; margin-bottom: .5em;  }
+h3	{ font-size: 110%; margin-top: 1.2em;margin-bottom: .5em;  }
+h4	{font-size: 105%;margin-top: 1.2em;margin-bottom: .5em  }
+h5	{font-size: 100%;margin-top: 1.2em;margin-bottom: .5em }
+
+/*	LIST TAGS	*/
+ol	{ margin-top: 0em; margin-bottom: 0em; margin-left: 0em }	
+ul	{ margin-top: 0em; margin-bottom: 0em }	
+ol ul	{ list-style: disc; margin-top: 0em  }
+li	{ margin-bottom: 0em;margin-left: -1.5em }
+
+/*	TERM AND DEFINITION TAGS	*/
+dl	{ margin-top: 0em }
+dt	{ font-weight: bold;	margin-top: 1em;margin-left: 1.5em;  }
+dd	{ margin-bottom: 0em;margin-left: 1.5em  }
+dl li	{ margin-bottom: .7em }	/*list item inside a term/def list*/
+dl dl	{  margin-top: 0em; margin-left: 0em  }	/*term/def list inside a term/def list*/
+
+/* Input & Textarea*/
+form	{ font-size: 9pt; margin-top: 0em;margin-bottom: 0em;  }
+input	{padding:0; border:1px solid #808080;  font-size: 9pt; border-top-style:solid; border-right-style:solid; border-bottom-style:solid; border-left-style:solid; border-top-width:1px; border-right-width:1px; border-bottom-width:1px; border-left-width:1px; background-color: #FFFFFF}
+select 	{border: 1px solid #808080;font-size: 9pt}
+case 	{border: 1px solid #808080;font-size: 9pt}
+textarea	{border: 1px solid #808080;  font-size: 9pt; border-top-style:solid; border-right-style:solid; border-bottom-style:solid; border-left-style:solid; border-top-width:1px; border-right-width:1px; border-bottom-width:1px; border-left-width:1px}

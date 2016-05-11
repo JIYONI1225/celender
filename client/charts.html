@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+ 
+<style type="text/css">  
+
+
+<!--
+	A:link, A:active, A:visited {text-decoration: none;font-size: 9pt;}
+	A:hover {text-decoration: none;	color: "red";}
+	.notice {font-size: 9pt;color: black;text-decoration: none;}
+	small {font-size:8pt;font/Preopenfamily:굴림}
+	font {font-size: 9pt;text-decoration: none;}
+	-->
+
+</style>
+<script LANGUAGE="JavaScript" src="cal_js.js" type="Text/JavaScript"></script>
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>SB Admin - Bootstrap Admin Template</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/sb-admin.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="bbs.css" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <div id="wrapper">
+
+        <!-- Navigation -->
+        <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">SB Admin</a>
+            </div>
+            <!-- Top Menu Items -->
+            <ul class="nav navbar-right top-nav">
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-envelope"></i> <b class="caret"></b></a>
+                    <ul class="dropdown-menu message-dropdown">
+                        <li class="message-preview">
+                            <a href="#">
+                                <div class="media">
+                                    <span class="pull-left">
+                                        <img class="media-object" src="http://placehold.it/50x50" alt="">
+                                    </span>
+                                    <div class="media-body">
+                                        <h5 class="media-heading"><strong>John Smith</strong>
+                                        </h5>
+                                        <p class="small text-muted"><i class="fa fa-clock-o"></i> Yesterday at 4:32 PM</p>
+                                        <p>Lorem ipsum dolor sit amet, consectetur...</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="message-preview">
+                            <a href="#">
+                                <div class="media">
+                                    <span class="pull-left">
+                                        <img class="media-object" src="http://placehold.it/50x50" alt="">
+                                    </span>
+                                    <div class="media-body">
+                                        <h5 class="media-heading"><strong>John Smith</strong>
+                                        </h5>
+                                        <p class="small text-muted"><i class="fa fa-clock-o"></i> Yesterday at 4:32 PM</p>
+                                        <p>Lorem ipsum dolor sit amet, consectetur...</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="message-preview">
+                            <a href="#">
+                                <div class="media">
+                                    <span class="pull-left">
+                                        <img class="media-object" src="http://placehold.it/50x50" alt="">
+                                    </span>
+                                    <div class="media-body">
+                                        <h5 class="media-heading"><strong>John Smith</strong>
+                                        </h5>
+                                        <p class="small text-muted"><i class="fa fa-clock-o"></i> Yesterday at 4:32 PM</p>
+                                        <p>Lorem ipsum dolor sit amet, consectetur...</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="message-footer">
+                            <a href="#">Read All New Messages</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-bell"></i> <b class="caret"></b></a>
+                    <ul class="dropdown-menu alert-dropdown">
+                        <li>
+                            <a href="#">Alert Name <span class="label label-default">Alert Badge</span></a>
+                        </li>
+                        <li>
+                            <a href="#">Alert Name <span class="label label-primary">Alert Badge</span></a>
+                        </li>
+                        <li>
+                            <a href="#">Alert Name <span class="label label-success">Alert Badge</span></a>
+                        </li>
+                        <li>
+                            <a href="#">Alert Name <span class="label label-info">Alert Badge</span></a>
+                        </li>
+                        <li>
+                            <a href="#">Alert Name <span class="label label-warning">Alert Badge</span></a>
+                        </li>
+                        <li>
+                            <a href="#">Alert Name <span class="label label-danger">Alert Badge</span></a>
+                        </li>
+                        <li class="divider"></li>
+                        <li>
+                            <a href="#">View All</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i> John Smith <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        <li>
+                            <a href="#"><i class="fa fa-fw fa-user"></i> Profile</a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-fw fa-envelope"></i> Inbox</a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-fw fa-gear"></i> Settings</a>
+                        </li>
+                        <li class="divider"></li>
+                        <li>
+                            <a href="#"><i class="fa fa-fw fa-power-off"></i> Log Out</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+            <!-- Sidebar Menu Items - These collapse to the responsive navigation menu on small screens -->
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
+                <ul class="nav navbar-nav side-nav">
+                    <li>
+                        <a href="index.html"><i class="fa fa-fw fa-dashboard"></i> Dashboard</a>
+                    </li>
+                    <li class = "active">
+                        <a href="charts.html"><i class="fa fa-fw fa-bar-chart-o"></i> Charts</a>
+                    </li>
+                    <li>
+                        <a href="tables.html"><i class="fa fa-fw fa-table"></i> Tables</a>
+                    </li>
+                    <li>
+                        <a href="forms.html"><i class="fa fa-fw fa-edit"></i> Forms</a>
+                    </li>
+                    <li>
+                        <a href="bootstrap-elements.html"><i class="fa fa-fw fa-desktop"></i> Bootstrap Elements</a>
+                    </li>
+                    <li>
+                        <a href="bootstrap-grid.html"><i class="fa fa-fw fa-wrench"></i> Bootstrap Grid</a>
+                    </li>
+                    <li>
+                        <a href="javascript:;" data-toggle="collapse" data-target="#demo"><i class="fa fa-fw fa-arrows-v"></i> Dropdown <i class="fa fa-fw fa-caret-down"></i></a>
+                        <ul id="demo" class="collapse">
+                            <li>
+                                <a href="#">Dropdown Item</a>
+                            </li>
+                            <li>
+                                <a href="#">Dropdown Item</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="blank-page.html"><i class="fa fa-fw fa-file"></i> Blank Page</a>
+                    </li>
+                    <li>
+                        <a href="index-rtl.html"><i class="fa fa-fw fa-dashboard"></i> RTL Dashboard</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </nav>
+
+        <div id="page-wrapper">
+
+            <div class="container-fluid">
+
+<title>일정관리</title>
+</head>
+<body bgcolor="White" text="Black" leftmargin=10 topmargin=10>
+
+
+
+<div ID="overDiv" STYLE="width:50px; height:10px; position:absolute; left:50px; top:10px; z-index:2; top=10;left=100; visibility:hide;">
+    <p></p>
+</div>
+<script LANGUAGE="JavaScript" src="cal_div.js" type="Text/JavaScript"></script>
+<table border="0" cellpadding="0" cellspacing="0"  width="100%" align=center>
+
+	<tr>
+		<td>
+			<div align="center">
+			<table border="0" cellpadding="4" cellspacing="0"  width="100%" >
+				<tr>
+					<td valign=left><p align=center>
+						2016년 5월 12일,   목요일  (음력 4월 6일)</td></tr><tr><td valign=left><p align=center><a href="http://www.mariasarang.net/3sinang/4kyori/main.asp"><b><font color="#000000"></a></b></font></p></td></tr><tr><td valign=left><p align=center>
+						<p align=center>
+						<img border="0" src="images/bul73.gif">
+						<a href=diary.asp?index=2&d=d><font color="#000000">오늘일정(5월 12일)&nbsp;
+                        </font> </a>
+                        <img border="0" src="images/bul70.gif"> 
+                        <a href=diary.asp?index=2&d=d&F_year=2016&F_month=5&F_day=12>
+                        <font color="#000000">일별일정&nbsp; </font> </a>
+                        <img border="0" src="images/bul71.gif"> 
+                        <a href=diary.asp?index=2&d=w&F_year=2016&F_month=5&F_day=12>
+                        <font color="#000000">주별일정 </font> </a>&nbsp;<img border="0" src="images/bul72.gif"> 
+                        <a href=diary.asp?index=2&d=m&F_year=2016&F_month=5&F_day=12>
+                        <font color="#000000">월별일정 </font>  </a> 
+						</p>
+					</td>
+				</tr>
+			</table><br>
+
+		<table border="0" width="95%" cellspacing="0" cellpadding="0" bordercolor="#000000" bordercolorlight="#000000">
+	<tr>
+		<td>
+			<div align="center">
+			<table border="1" width="100%" cellspacing="0" cellpadding="4" bordercolor="#ffffff" bordercolorlight="#000000">
+				<tr  height=30>
+        <td width="14%" bgcolor="#EEEEEE" align="center"><font color="red"><span
+        >주일</span></font></td>
+        <td width="14%" bgcolor="#EEEEEE" align="center"><font color=""><span
+        >월</span></font></td>
+        <td width="14%" bgcolor="#EEEEEE" align="center"><font color=""><span
+        >화</span></font></td>
+        <td width="14%" bgcolor="#EEEEEE" align="center"><font color=""><span
+        >수</span></font></td>
+        <td width="14%" bgcolor="#EEEEEE" align="center"><font color=""><span
+        >목</span></font></td>
+        <td width="14%" bgcolor="#EEEEEE" align="center"><font color=""><span
+        >금</span></font></td>
+        <td width="14%" bgcolor="#EEEEEE" align="center"><font color=""><span
+        >토</span></font></td>
+      </tr>
+
+	<tr>
+<td height=50 valign=top align=left> <b><a href=diary.asp?index=2&d=d&F_Year=2016&F_Month=5&F_Day=1 ><font color=red>1</font></a></b> <br>
+<font face=굴림><span style='font-size:9pt'></span></font>
+</td><td height=50 valign=top align=left> <font color=#000000><a href=diary.asp?index=2&d=d&F_Year=2016&F_Month=5&F_Day=2 >2</a></font></b> <br>
+<font face=굴림><span style='font-size:9pt'></span></font>
+</td><td height=50 valign=top align=left> <font color=#000000><a href=diary.asp?index=2&d=d&F_Year=2016&F_Month=5&F_Day=3 >3</a></font></b> <br>
+<font face=굴림><span style='font-size:9pt'></span></font>
+</td><td height=50 valign=top align=left> <font color=#000000><a href=diary.asp?index=2&d=d&F_Year=2016&F_Month=5&F_Day=4 >4</a></font></b> <br>
+<font face=굴림><span style='font-size:9pt'></span></font>
+</td><td height=50 valign=top align=left> <font color=#000000><a href=diary.asp?index=2&d=d&F_Year=2016&F_Month=5&F_Day=5 >5</a></font></b> <br>
+<font face=굴림><span style='font-size:9pt'></span></font>
+</td><td height=50 valign=top align=left> <font color=#000000><a href=diary.asp?index=2&d=d&F_Year=2016&F_Month=5&F_Day=6 >6</a></font></b> <br>
+<font face=굴림><span style='font-size:9pt'></span></font>
+</td><td height=50 valign=top align=left> <b><a href=diary.asp?index=2&d=d&F_Year=2016&F_Month=5&F_Day=7 ><font color=green>7</font></a></b> <br>
+<font face=굴림><span style='font-size:9pt'></span></font>
+</td></tr><tr>
+<td height=50 valign=top align=left> <b><a href=diary.asp?index=2&d=d&F_Year=2016&F_Month=5&F_Day=8 ><font color=red>8</font></a></b> <br>
+<font face=굴림><span style='font-size:9pt'></span></font>
+</td><td height=50 valign=top align=left> <font color=#000000><a href=diary.asp?index=2&d=d&F_Year=2016&F_Month=5&F_Day=9 >9</a></font></b> <br>
+<font face=굴림><span style='font-size:9pt'></span></font>
+</td><td height=50 valign=top align=left> <font color=#000000><a href=diary.asp?index=2&d=d&F_Year=2016&F_Month=5&F_Day=10 >10</a></font></b> <br>
+<font face=굴림><span style='font-size:9pt'></span></font>
+</td><td height=50 valign=top align=left> <font color=#000000><a href=diary.asp?index=2&d=d&F_Year=2016&F_Month=5&F_Day=11 >11</a></font></b> <br>
+<font face=굴림><span style='font-size:9pt'></span></font>
+</td><td height=50 valign=top align=left> <a href=diary.asp?index=2&d=d&F_Year=2016&F_Month=5&F_Day=12 ><font color=darkorange>12 ◈</font></a></b> <br>
+<font face=굴림><span style='font-size:9pt'></span></font>
+</td><td height=50 valign=top align=left> <font color=#000000><a href=diary.asp?index=2&d=d&F_Year=2016&F_Month=5&F_Day=13 >13</a></font></b> <br>
+<font face=굴림><span style='font-size:9pt'></span></font>
+</td><td height=50 valign=top align=left> <b><a href=diary.asp?index=2&d=d&F_Year=2016&F_Month=5&F_Day=14 ><font color=green>14</font></a></b> <br>
+<font face=굴림><span style='font-size:9pt'></span></font>
+</td></tr><tr>
+<td height=50 valign=top align=left> <b><a href=diary.asp?index=2&d=d&F_Year=2016&F_Month=5&F_Day=15 ><font color=red>15</font></a></b> <br>
+<font face=굴림><span style='font-size:9pt'></span></font>
+</td><td height=50 valign=top align=left> <font color=#000000><a href=diary.asp?index=2&d=d&F_Year=2016&F_Month=5&F_Day=16 >16</a></font></b> <br>
+<font face=굴림><span style='font-size:9pt'></span></font>
+</td><td height=50 valign=top align=left> <font color=#000000><a href=diary.asp?index=2&d=d&F_Year=2016&F_Month=5&F_Day=17 >17</a></font></b> <br>
+<font face=굴림><span style='font-size:9pt'></span></font>
+</td><td height=50 valign=top align=left> <font color=#000000><a href=diary.asp?index=2&d=d&F_Year=2016&F_Month=5&F_Day=18 >18</a></font></b> <br>
+<font face=굴림><span style='font-size:9pt'></span></font>
+</td><td height=50 valign=top align=left> <font color=#000000><a href=diary.asp?index=2&d=d&F_Year=2016&F_Month=5&F_Day=19 >19</a></font></b> <br>
+<font face=굴림><span style='font-size:9pt'></span></font>
+</td><td height=50 valign=top align=left> <font color=#000000><a href=diary.asp?index=2&d=d&F_Year=2016&F_Month=5&F_Day=20 >20</a></font></b> <br>
+<font face=굴림><span style='font-size:9pt'></span></font>
+</td><td height=50 valign=top align=left> <b><a href=diary.asp?index=2&d=d&F_Year=2016&F_Month=5&F_Day=21 ><font color=green>21</font></a></b> <br>
+<font face=굴림><span style='font-size:9pt'></span></font>
+</td></tr><tr>
+<td height=50 valign=top align=left> <b><a href=diary.asp?index=2&d=d&F_Year=2016&F_Month=5&F_Day=22 ><font color=red>22</font></a></b> <br>
+<font face=굴림><span style='font-size:9pt'></span></font>
+</td><td height=50 valign=top align=left> <font color=#000000><a href=diary.asp?index=2&d=d&F_Year=2016&F_Month=5&F_Day=23 >23</a></font></b> <br>
+<font face=굴림><span style='font-size:9pt'></span></font>
+</td><td height=50 valign=top align=left> <font color=#000000><a href=diary.asp?index=2&d=d&F_Year=2016&F_Month=5&F_Day=24 >24</a></font></b> <br>
+<font face=굴림><span style='font-size:9pt'></span></font>
+</td><td height=50 valign=top align=left> <font color=#000000><a href=diary.asp?index=2&d=d&F_Year=2016&F_Month=5&F_Day=25 >25</a></font></b> <br>
+<font face=굴림><span style='font-size:9pt'></span></font>
+</td><td height=50 valign=top align=left> <font color=#000000><a href=diary.asp?index=2&d=d&F_Year=2016&F_Month=5&F_Day=26 >26</a></font></b> <br>
+<font face=굴림><span style='font-size:9pt'></span></font>
+</td><td height=50 valign=top align=left> <font color=#000000><a href=diary.asp?index=2&d=d&F_Year=2016&F_Month=5&F_Day=27 >27</a></font></b> <br>
+<font face=굴림><span style='font-size:9pt'></span></font>
+</td><td height=50 valign=top align=left> <b><a href=diary.asp?index=2&d=d&F_Year=2016&F_Month=5&F_Day=28 ><font color=green>28</font></a></b> <br>
+<font face=굴림><span style='font-size:9pt'></span></font>
+</td></tr><tr>
+<td height=50 valign=top align=left> <b><a href=diary.asp?index=2&d=d&F_Year=2016&F_Month=5&F_Day=29 ><font color=red>29</font></a></b> <br>
+<font face=굴림><span style='font-size:9pt'></span></font>
+</td><td height=50 valign=top align=left> <font color=#000000><a href=diary.asp?index=2&d=d&F_Year=2016&F_Month=5&F_Day=30 >30</a></font></b> <br>
+<font face=굴림><span style='font-size:9pt'></span></font>
+</td><td height=50 valign=top align=left> <font color=#000000><a href=diary.asp?index=2&d=d&F_Year=2016&F_Month=5&F_Day=31 >31</a></font></b> <br>
+<font face=굴림><span style='font-size:9pt'></span></font>
+</td><td height=50 valign=top align=left> <font color=white>.</font>
+</td><td height=50 valign=top align=left> <font color=white>.</font>
+</td><td height=50 valign=top align=left> <font color=white>.</font>
+</td><td height=50 valign=top align=left> <font color=white>.</font>
+</td></tr>
+</table>
+            </div>
+</td>
+</tr>
+<tr>
+<td align="center">
+<p align=center>
+<a href=charts.html>◀ 이전달[4월 12일] </a>&nbsp;&nbsp;<a href=charts.html>[6월 12일] ▶ </a>
+</center></p>
+</td>
+</tr>
+</table>
+<center>
+<br>
+<center>
+
+<p align="center"><img border="0" src="../../images/line_r1.gif"></p>
+<p>　</p>
+
+</center>
+ 
+            </div>
+            <p align="center">　</p>
+
+       
+
+		</td>
+	</tr>
+</table>
+
+
+
+</body>
+
+         </div>
+            <!-- /.container-fluid -->
+
+        </div>
+        <!-- /#page-wrapper -->
+
+    </div>
+    <!-- /#wrapper -->
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
+
