@@ -13,7 +13,7 @@ A:hover      {color: red ; fontsize:9pt;text-decoration: underline;}
 p	{ margin-top: 0.0em; margin-bottom: 0.0em ;  font-size: 9pt;}
 b	{  font-size: 9pt;}
 
-.c_small { color:#003A5F; font-size: 8pt; text-decoration:none ; text-decoration:none ; line-height:12pt; letter-spacing : -1px;}
+.c_small {font-family: "µ¸¿ò", "µ¸¿òÃ¼", "Arial"; color:#003A5F; font-size: 8pt; text-decoration:none ; text-decoration:none ; line-height:12pt; letter-spacing : -1px;}
 
 /*	TABLE TAGS	*/
 table	{  font-size: 9pt;margin-top: 0em; margin-bottom: 0em }
